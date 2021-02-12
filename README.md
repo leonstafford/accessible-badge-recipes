@@ -31,3 +31,5 @@ As per the design goals listed above, I want to have each recipe dir adhere to b
 Name your recipe dir and scripts something descriptive and unique, in case there are multiple examples, ie `update-pest-coverage.sh` and `pest-coverage-bold-with-link-to-artifacts.sh`. Bit lengthy, but to give you an idea.
 
 Don't be afraid to commit anything. I'll give feedback if needed or help get it over the line if you're struggling with the testing or requirements.
+
+Easiest way to get started is to copy an existing recipe dir and modify for your specific badge requirements.
