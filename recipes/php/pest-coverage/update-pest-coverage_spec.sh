@@ -8,7 +8,7 @@ Describe 'Pest code coverage accessible badge recipe'
     mkdir -p /tmp/pestcoveragetest
 
     # copy recipe files to /tmp
-    cp ./* /tmp/pestcoveragetest/
+    cp ./recipes/php/pest-coverage/* /tmp/pestcoveragetest/
 
     # run script
     cd /tmp/pestcoveragetest
@@ -30,7 +30,7 @@ Describe 'Pest code coverage accessible badge recipe'
     mkdir -p /tmp/pestcoveragetest
 
     # copy recipe files to /tmp
-    cp ./* /tmp/pestcoveragetest/
+    cp ./recipes/php/pest-coverage/* /tmp/pestcoveragetest/
 
     # run script
     cd /tmp/pestcoveragetest
@@ -39,7 +39,7 @@ Describe 'Pest code coverage accessible badge recipe'
     EXPECTED_README_CONTENTS=`cat EXPECTED_README.md`
 
     When run source ./update-pest-coverage.sh
-    The output should equal "Missing NEW_COVERAGE variable in your GitHub Action"
+    The error should equal "Missing PEST_COVERAGE variable in your GitHub Action"
     The status should be failure
   End
 End
