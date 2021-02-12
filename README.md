@@ -4,6 +4,10 @@ Recipes (shell scripts) to generate a11y-friendly badges for your GitHub project
 
 Designed for use with [a11y-friendly badges GitHub Action](https://github.com/marketplace/actions/a11y-friendly-badges-for-github), but you're free to use in any creative way!
 
+## In action!
+
+ShellSpec code coverage:
+
 ## Usage
 
 Find recipes to use in your project by navigating this repository's `./recipes/` dir by language, ie `php` or `javascript` and then inspect and grab a project-specific recipe, such as `pest-codecoverage` or `eslint`.
