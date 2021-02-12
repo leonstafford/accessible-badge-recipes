@@ -17,6 +17,11 @@ If using the [a11y-friendly badges GitHub Action](https://github.com/marketplace
  - [ ] shellcheck against all scripts in this repo
  - [ ] require shellspec tests within each recipe dir
 
+## Testing
+
+ - `shellcheck **/*.sh` lints all scripts
+ - `shellspec .` tests all recipe specs 
+
 ## Contributing
 
 I can't build all the recipes alone, so this needs community assistance.
